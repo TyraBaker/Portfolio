@@ -1,66 +1,70 @@
-html {
+body {
     background: url(http://newyearmetal.net/wp-content/uploads/2014/11/background.jpg) no-repeat center fixed; 
     background-size: cover;
     width: 100%;
 }
 
-.container-fluid {
-    width: 100%;
+.wrapper {
+    margin: 0 0 0 0;
 }
 
+
 header {
-        /* width: 18%;
-        height: 0px;
-        border-right: 37px solid transparent;
-        border-top: 325px solid rgba(117, 0, 20, 0.664);
-        z-index: 1;
-        position: relative;
-        top: 21px;
-        right: 7px; */
-        width: 26%;
-        height: 0px;
+        margin: 0 40px 0 -10px;
         border-right: 27px solid transparent;
         border-top: 55px solid rgba(117, 0, 20, 0.664);
         z-index: 1;
         position: relative;
+        display: block;
         top: 21px;
-        right: 7px;
+        float: left;
         
 }
         header h1 {
-            /* font-family: "Times New Roman", Times, serif;
-            color: rgb(240, 240, 240);
-            font-size: 40px;
-            letter-spacing: -0.025em;
-            margin: -320px 38px;     */
-            /*text-shadow: 1px 2px 0 #bd8437;  offset-x | offset-y | blur-radius | color */
             font-family: "Times New Roman", Times, serif;
             color: rgb(240, 240, 240);
             font-size: 40px;
             letter-spacing: -0.025em;
             margin: -53px 43px;
+            position: relative;
+            float:left;
             }
-       .image{
-           /* position: relative;
-           margin: 315px -10px;
-           z-index: 3; */
+
+      #image{
            position: relative;
-           margin: 70px 0px 0 -10px;
-             padding: 0 -55px 0 -15px; 
+           display: block;
+           margin: 20px 0px 0 -5px;
            z-index: 2;
-           /* background-color:  rgba(117, 0, 20, 0.664); */
            background-color: rgb(240, 240, 240, 0.65);
            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
        }
-    
 
-.btn-toolbar{   
+
+
+/* .btn-toolbar{   
     top: 35px;
-    left: 470px;
-    z-index: 3;
-    position: absolute;
+
+position: relative;
+   float: left;
+ } */
+
+
+
+ .container {
+    position: relative;
+    float: left;
+    width: 65%;
 }
+
+.row {
+    float: left;
+    position: relative;
+    margin: 35px 0 30px 75px;
+    text-align: center;
+}
+
+
+
 .btn {
      background-color: rgb(240, 240, 240, 0.85);
     border: none;
@@ -69,46 +73,64 @@ header {
     margin: 5px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    position: relative;
     font-size: 20px;
     border-radius: 6%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
-#intro {
-    width: 812px;
+
+   .aboutMe {
+       position: relative;
+       text-align: center;
+       float: left;
+       width: 100%;
+   }
+
+   #intro {
+    width: 95%;
     height: 100px;
-    float: right;
-    position: relative;
-    display: block;
+    float: left;
     background-color: rgba(117, 0, 20, 0.664);
-    margin: 61px 157px 0 60px;
-    /* padding: 1.7em 0.5em 2.0em 1.7em; */
-    /* border-left: #2BA967 solid 5px; */
+    margin: 10px 50px 0 40px;
    }
 
    #skills {
-    width: 400px;
+    width: 40%;
     height: 200px;
-    float: right;
     position: relative;
-    display: block;
+    display: inline-block;
     background-color: rgba(117, 0, 20, 0.664);
-    margin: 50px -48px 0 60px;
-    /* padding: 1.7em 0.5em 2.0em 1.7em; */
-    /* border-left: #2BA967 solid 5px; */
+    margin: 50px 45px 30px 37px ;
    }
 
    #exp {
-    width: 400px;
+    width: 40%;
     height: 200px;
-    float: right;
     position: relative;
-    display: block;
+    display: inline-block;
     background-color: rgba(117, 0, 20, 0.664);
-    margin: 50px 157px 0 60px;
-    /* padding: 1.7em 0.5em 2.0em 1.7em; */
-    /* border-left: #2BA967 solid 5px; */
+    margin: 0 10px 30px -20px;
+   }
+
+   .portfolio {
+       width: 99%;
+       position: relative;
+       float: left;
+   }
+
+   .bwh {
+    text-align: center;
+    width: 20%;
+    color: rgb(240, 240, 240, 0.85);
+    box-shadow: 0px 12px 16px 0 rgba(0,0,0,0.34), 0 17px 50px 0 rgba(0,0,0,0.29), 0 -25px 25px -15px rgba(0,0,0,0.24);
+   }
+
+   .bat {
+       width: 20%;
+       position: relative;
+       float: left;
+       box-shadow: 0px 12px 16px 0 rgba(0,0,0,0.34), 0 17px 50px 0 rgba(0,0,0,0.29), 0 -25px 25px -15px rgba(0,0,0,0.24);
    }
 
