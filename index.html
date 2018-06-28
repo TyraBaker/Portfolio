@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper" width = "99%">
       <header float ="left">
            <h1>Tyra Baker</h1> 
         
@@ -25,111 +25,120 @@
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group mr-2" role="group" aria-label="First group">
               <button type="button" class="btn">Introduction</button>
-              <button type="button" class="btn">Skills</button>
-              <button type="button" class="btn">Experience</button>
-              <button type="button" class="btn">Portfolio</button>
-              <button type="button" class="btn">Contact</button>
+              <button type="button" class="btn">Skills & Experience</button>
+              <button type="button" class="btn"><a href="#portfolio">Portfolio</a></button>
+              <button type="button" class="btn"><a href="../5-portfolio/assets/Job Resume (September 2017 - Tentative).docx">Resume</a></button>
+              <button type="button" class="btn"><a href="#header1">Contact</a></button>
             
           </div>
           </div>
           </div>
     
     <div class = "aboutMe">
-        <div id="intro">
-            <p>
-              Welcome to my page!
-            </p>
+        <div id="intro" >
+            <p style= "margin-top: .5%; margin-left: .3%; height: 90px; width: 99%; overflow: auto;">
+              Welcome! I am a student at the University of Evansville working toward a bechelor's in Cognitive Science and Economics.
+              Cognitive science is an umbrella science which allows me to think critically about an array of topics with a focus on the mind. 
+              My focus within the field is on interpersonal relations and communication between multi-lingual individuals. 
+              Other interests include the study of complex systems through agent-based modeling, coding, and philosophy. 
+              I look forward to graduating in the next 3 years and hope to pursue a career in either business or genetic counseling.
+          </p>
           </div>
           <div id="skills">
-              <p>
-                I'm good at this stuff!!
-              </p>
+              <h1 style = "margin-top: 2.3%; margin-left: .3%; margin-bottom: -4%;">Skills</h1>
+            <p style= "margin-top: 5.3%; margin-left: .3%; padding: 0 .3% 0 .3%; height: 140px; width: 98%; overflow: auto;">
+          Having worked in a restaurant for 3 years, I am used to working in a fast-paced environment. 
+          This has taught me how to be both readily adaptable and people-friendly under high amounts of stress. 
+          Having lived in multi-gender, international housing my first year at the University of Evansville, I am proficient in positive people relations even within a diverse group.
+          I yearn to be a life-long learner, and I enjoy learning things far-removed from my own personal knowledge. 
+          I like to think that I am a quick learner as well as a good student. 
+          Technical skills I have amassed over the years include competence in basic HTML, CSS and JavaScript coding. 
+          I am also well-versed in agent-based modeling through NetLogo having completed a class in complex systems. 
+
+            </p>
             </div>
       <div id="exp">
-        <p>
-          Here's what I've done!!
+          <h1 style = "margin-top: 2.3%; margin-left: .3%; margin-bottom: -4%;">Experience</h1>
+        <p style= "margin-top: 5.3%; margin-left: .3%; padding: 0 .3% 0 .3%; height: 140px; width: 98%; overflow: auto;">
+          June, 2018 I had the chance to partake in a month-long programming bootcamp through ICI and SmartTechLaunch. 
+          From this I gained basic skills in the HTML, CSS, and Javascript languages and was accredited a Gold Badge in coding. 
+          During my time at the University of Evansville I had the opportunity to give tours to prospective students and work in the cognitive science modeling lab alongside Dr. Anthony Beavers.
+          I look forward to continuing my work alongside Dr. Beavers and my fellow peers in the coming years with hopes of presenting our research at state conferences while we continue our work.
+          From September through December of this year, I have the opportunity to study abroad for my major in Budapest, Hungary. 
+          Eotvos University hosts a semester in cognitive science each fall for English-speaking students around the world. 
+          I will have the chance to learn about cognitive science alongside other cognitive science students around the world from a number of the world's leading cognitive scientists. 
+          There is a lot to come and I look forward to all the experiences to come!
         </p>
       </div>
     
     </div>
   </div>
 
-<div class = "portfolio">
-  <div class = "bwh">
-  <a href="https://tyrabaker.github.io/Storefront/" target="_blank"><img src="../2-JavaScript-Projects/2-storefrontApp/BWH/blue willow house.jpg" width = 60%><br/>Click here to see the Blue Willow House website!</a>
+<div id= "portfolio">
 
-</div>
-<br/>
-<br/>
   <div class = "bat">
   <p data-height="265" data-theme-id="0" data-slug-hash="yEJyNE" data-default-tab="result, css" data-user="tyrabaker" data-embed-version="2" data-pen-title="Bat" class="codepen">See the Pen <a href="https://codepen.io/tyrabaker/pen/yEJyNE/">Bat</a> by TyraBaker (<a href="https://codepen.io/tyrabaker">@tyrabaker</a>) on <a href="https://codepen.io">CodePen</a>.</p>
   <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </div>
+<div class = "bwh">
+    <a href="https://tyrabaker.github.io/Storefront/" target="_blank"><img src="./assets/blue willow house1.jpg" width = 60%><br/>Click here to see the Blue Willow House website!</a>
+  </div>
+  <div class = "api">
+      <a href="https://tyrabaker.github.io/api/" target="_blank"><img src="./assets/sky-earth-galaxy-universe1.jpg" width = 75%><br/>Click here to use the FourSquare API!</a>
+    </div>
+
+<a href="../5-portfolio/assets/Job Resume (September 2017 - Tentative).docx" title="Download My Resume" class= "resume"><img style="width: 20%; border: 0;"><h1>2018 Resume</h1></a>
+
 </div>
 
 
-<section id="contact">
-    <div class="container">
-      <h2 class="text-center text-uppercase">Contact Me</h2>
-      <div class="row">
-        <div class="col-12">
-          <form action="https://formspree.io/TNBaker17@yahoo.com" method="POST">
-            <div class="control-group">
-              <div class="form-group">
-                <label>Name</label>
-                <input 
-                  type="text" 
-                  class="form-control" 
-                  placeholder="Your Name" 
-                  id="name" 
-                  required 
-                  data-validation-required-message="Please enter your name"
-                  name="name"
-                  >
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group">
-                <label>Email Address</label>
-                <input 
-                  type="email" 
-                  class="form-control" 
-                  placeholder="Your Email" 
-                  id="email" 
-                  required 
-                  data-validation-required-message="Please enter your email"
-                  name="_replyto"
-                >
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group">
-                <textarea 
-                  class="form-control" 
-                  rows="7" 
-                  placeholder="Your Message" 
-                  id="message" 
-                  required 
-                  data-validation-required-message="Please leave a message"
-                  name="message"
-                ></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="text-center">
-              <div id="success"></div>
-              <button type="submit" class="btn btn-lg btn-black">
-                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
+<div class="header1" id="header1">CONTACT ME</div>
+<div class= "contact">
+    <p>Thank you for taking the time to view my portfolio! If you have any questions, concerns, or just want to get in touch, you can contact me here!</p>
+
+
+<div class="git"><a href="https://github.com/TyraBaker" target= "_blank"><img src="./assets/github.jpg" width = 20%></a></div>
+<div class="ln"><a href="https://www.linkedin.com/feed/?trk=onboarding-landing" target= "_blank"><img src="./assets/linkedin.png" width = 20%></a></div>
+</div>
+
+
+<section id="form" class="topBefore">
+		<div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formspree.io/TNBaker17@yahoo.com" method="POST">
+              <div class="control-group">
+                <div class="form-group">
+		  <input id="name" type="text" class="form-control" placeholder="NAME" required 
+      data-validation-required-message="Please enter your name"
+      >  
+		  <input id="email" type="email" placeholder="E-MAIL"  id="email" 
+      required 
+      data-validation-required-message="Please enter your email"
+      name="_replyto">
+		  <textarea id="message" type="text" placeholder="MESSAGE"  required 
+      data-validation-required-message="Please leave a message"
+      name="message"></textarea>
+  <!-- <input id="submit" type="submit" value="GO!"> <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+ -->
+ <div class="text-center">
+    <div id="success"></div>
+    <button type="submit" class="btn btn-lg btn-black">
+      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      Send Message
+    </button>
+  </div>
+  </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+</section>
+
+
 
   </div>
 
